@@ -22,10 +22,6 @@ img {
 
 /* モジュール
 ===================================================================*/
-#main span {
-    color: #555;
-    font-size: 14px;
-}
 #main div.bl_module.main-module {
     /* モジュールに対する指定 */
     display: flex;
@@ -54,4 +50,8 @@ img {
     margin-bottom: 10px;
     font-size: 16px;
     border-bottom: 1px solid #555;
+}
+#main .bl_module.main-module .body > span {
+    color: #555;
+    font-size: 14px;
 }
